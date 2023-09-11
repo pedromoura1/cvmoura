@@ -1,0 +1,97 @@
+@import url('https://fonts.cdnfonts.com/css/poppins'); 
+
+    .logo img {
+        height: 60px; 
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    #menu{
+        font-family: 'Poppins', sans-serif;      
+        font-size: 28px;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 100px;
+        line-height: normal;
+        position: absolute;
+        margin-left: 30px;
+        top: 20px;
+        right: 0;
+    }
+
+    body {
+        background-color: #E4E4E4;
+        width: 1440px;
+    }
+
+    #menu li{
+        margin: 0px 30px 20px;
+        display: inline-block;
+    }
+
+    #menu li a {
+        text-decoration: none;
+        color: #4C0677;
+    }
+
+    .welcome{
+        position: relative;
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 1387px;
+        height: 500px;
+        flex-shrink: 0;
+        border-radius: 85px;
+        background: #4C0677;
+    }
+
+    #first{
+        color: #F4F4F4;
+        font-family: Poppins;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 5;
+        letter-spacing: -12.48px;
+        width: 347px;
+        height: 115.652px;
+        flex-shrink: 0;
+        margin-left: 90px;
+    }
+
+    #second{
+        color: #E4E4E4;
+        font-family: Poppins;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.2;
+        letter-spacing: -3.2px;
+        width: 340px;
+        height: 40px;
+        flex-shrink: 0;
+        margin-left: 90px;
+    }
+
+    #third{
+        color: #E4E4E4;
+        font-family: Poppins;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: -3.2px;
+        width: 500px;
+        margin-left: 90px;
+    }
+
+    .hello-img{
+        position: absolute; /* Establece el posicionamiento absoluto */
+        bottom: 1px; /* Coloca el elemento en la parte inferior */
+        right: 0; /* Coloca el elemento en el extremo derecho */
+        left: 510px;
+        width: 452px;
+        height: 418px;
+        flex-shrink: 0;
+    }
