@@ -273,6 +273,15 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+.masthead-heading.text-uppercase {
+  color: rgb(217, 212, 212); /* o el color que desees por defecto */
+  transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.masthead-heading.text-uppercase:hover {
+  color: #001f3f; /* Color azul oscuro */
+}
+
 pre,
 code,
 kbd,
